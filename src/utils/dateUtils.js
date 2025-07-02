@@ -67,4 +67,8 @@ export const getTimeUntilDeadline = (targetDate) => {
   if (diffDays < 30) return `${Math.ceil(diffDays / 7)} weeks left`
   
   return `${Math.ceil(diffDays / 30)} months left`
+return `${Math.ceil(diffDays / 30)} months left`
 }
+
+// Re-export date-fns functions for external use
+export { isToday }
