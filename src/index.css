@@ -13,7 +13,7 @@
 }
 
 .Toastify__toast--success {
-  @apply bg-accent-50 text-accent-700 border border-accent-200;
+  @apply bg-emerald-50 text-emerald-700 border border-emerald-200;
 }
 
 .Toastify__toast--error {
