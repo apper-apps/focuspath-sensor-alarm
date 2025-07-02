@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "title": "Learn Spanish Conversationally",
+    "description": "Become conversational in Spanish for my upcoming trip to Barcelona",
+    "category": "Learning",
+    "targetDate": "2024-06-15",
+    "createdAt": "2024-01-15",
+    "progress": 65,
+    "color": "#6366f1"
+  },
+  {
+    "Id": 2,
+    "title": "Complete Marathon Training",
+    "description": "Train consistently to run my first full marathon in under 4 hours",
+    "category": "Fitness",
+    "targetDate": "2024-05-01",
+    "createdAt": "2024-01-10",
+    "progress": 78,
+    "color": "#8b5cf6"
+  },
+  {
+    "Id": 3,
+    "title": "Launch Side Project",
+    "description": "Build and launch my productivity app idea with 100 beta users",
+    "category": "Career",
+    "targetDate": "2024-07-01",
+    "createdAt": "2024-01-20",
+    "progress": 34,
+    "color": "#10b981"
+  }
+]

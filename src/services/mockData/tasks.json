@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 1,
+    "goalId": "1",
+    "title": "Practice Spanish conversation for 30 minutes",
+    "scheduledDate": "2024-01-25",
+    "scheduledTime": "19:00",
+    "duration": 30,
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "Id": 2,
+    "goalId": "1",
+    "title": "Review Spanish vocabulary flashcards",
+    "scheduledDate": "2024-01-25",
+    "scheduledTime": "08:30",
+    "duration": 15,
+    "completed": true,
+    "completedAt": "2024-01-25T08:45:00Z"
+  },
+  {
+    "Id": 3,
+    "goalId": "2",
+    "title": "5-mile morning run",
+    "scheduledDate": "2024-01-25",
+    "scheduledTime": "06:00",
+    "duration": 45,
+    "completed": true,
+    "completedAt": "2024-01-25T06:45:00Z"
+  },
+  {
+    "Id": 4,
+    "goalId": "2",
+    "title": "Strength training - legs",
+    "scheduledDate": "2024-01-25",
+    "scheduledTime": "17:30",
+    "duration": 60,
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "Id": 5,
+    "goalId": "3",
+    "title": "Design app wireframes",
+    "scheduledDate": "2024-01-25",
+    "scheduledTime": "20:00",
+    "duration": 90,
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "Id": 6,
+    "goalId": "3",
+    "title": "Research competitor apps",
+    "scheduledDate": "2024-01-25",
+    "scheduledTime": "14:00",
+    "duration": 45,
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "Id": 7,
+    "goalId": "1",
+    "title": "Watch Spanish TV show episode",
+    "scheduledDate": "2024-01-26",
+    "scheduledTime": "20:30",
+    "duration": 25,
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "Id": 8,
+    "goalId": "2",
+    "title": "Easy recovery run",
+    "scheduledDate": "2024-01-26",
+    "scheduledTime": "06:30",
+    "duration": 30,
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "Id": 9,
+    "goalId": "3",
+    "title": "Set up development environment",
+    "scheduledDate": "2024-01-26",
+    "scheduledTime": "19:00",
+    "duration": 60,
+    "completed": false,
+    "completedAt": null
+  }
+]

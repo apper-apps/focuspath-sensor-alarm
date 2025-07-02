@@ -1,0 +1,136 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom toast styling */
+.Toastify__toast {
+  @apply rounded-xl shadow-lg;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 14px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+}
+
+.Toastify__toast--success {
+  @apply bg-accent-50 text-accent-700 border border-accent-200;
+}
+
+.Toastify__toast--error {
+  @apply bg-red-50 text-red-700 border border-red-200;
+}
+
+.Toastify__toast--info {
+  @apply bg-primary-50 text-primary-700 border border-primary-200;
+}
+
+.Toastify__progress-bar {
+  @apply bg-gradient-to-r from-primary-500 to-secondary-500;
+}
+
+.Toastify__close-button {
+  @apply text-gray-400 hover:text-gray-600;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+/* Focus visible styles */
+.focus-visible:focus-visible {
+  @apply ring-2 ring-primary-500 ring-offset-2 outline-none;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  @apply bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent;
+}
+
+/* Progress ring animation */
+.progress-ring-circle {
+  transition: stroke-dashoffset 0.8s ease-in-out;
+}
+
+/* Swipe trail effect */
+.swipe-trail {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: linear-gradient(45deg, #6366f1, #8b5cf6);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: swipe-particle 0.6s ease-out forwards;
+}
+
+@keyframes swipe-particle {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+/* Mood particle animation */
+.mood-particle {
+  position: absolute;
+  font-size: 20px;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Voice recording pulse */
+.voice-pulse {
+  animation: voice-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes voice-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+/* Streak flame effect */
+.streak-flame {
+  filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.3));
+}
+
+/* Calendar dot pulse */
+.calendar-dot {
+  animation: calendar-pulse 2s ease-in-out infinite;
+}
+
+@keyframes calendar-pulse {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
